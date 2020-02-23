@@ -1,3 +1,15 @@
+<p align="center">
+    <a href="https://pypi.org/project/wallarm-fast-cli/" alt="Package Version">
+        <img src="https://img.shields.io/pypi/v/wallarm-fast-cli.svg?style=popout" />
+    </a>
+    <a href="https://pypi.org/project/wallarm-fast-cli/" alt="Package Downloads">
+        <img src="https://img.shields.io/pypi/dm/wallarm-fast-cli.svg?style=popout" />
+    </a>
+     <a href="https://pypi.org/project/wallarm-fast-cli/" alt="Python Version">
+        <img src="https://img.shields.io/pypi/pyversions/wallarm-fast-cli.svg" />
+    </a>
+</p>
+
 # Description     
 Wallarm FAST CLI - A simple command line interface for [Wallarm FAST](https://wallarm.com/products/fast/). For now, this tool can be used in CI system to create test runs and retrieve detected vulnerabilities.
 
