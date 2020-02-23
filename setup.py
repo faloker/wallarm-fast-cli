@@ -1,17 +1,13 @@
 import os
 from setuptools import setup
+from fastcli import __version__, __name__
 
 with open('README.md', 'r') as f:
     long_description = f.read()
 
-if os.environ.get('CI_COMMIT_TAG'):
-    version = os.environ['CI_COMMIT_TAG']
-else:
-    version = os.environ['CI_JOB_ID']
-
 setup(
-    name='wallarm-fast-cli',
-    version=version,
+    name=__name__,
+    version=__version__,
     description='A Wallarm FAST CLI tool for executing tests and getting results from the command line.',
     long_description=long_description,
     long_description_content_type='text/markdown',
