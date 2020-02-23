@@ -1,4 +1,4 @@
-<p align="center">
+<p>
     <a href="https://pypi.org/project/wallarm-fast-cli/" alt="Package Version">
         <img src="https://img.shields.io/pypi/v/wallarm-fast-cli.svg?style=popout" />
     </a>
